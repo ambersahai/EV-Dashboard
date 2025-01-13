@@ -1,1 +1,73 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+
+    .w-100-p {
+        width: 100%;
+    }
+
+    .ui-widget {
+        font-family: "Open Sans", "Helvetica Neue", sans-serif;
+        text-decoration-color: #070707;
+    }
+
+    .ui-table-scrollable-header-box {
+        background-color: #b9d1d0 !important;
+    }
+
+    .ui-table .ui-table-caption,
+    .ui-table .ui-table-summary {
+        background-color: #b9d1d0 !important;
+        border: 1px solid #040404;
+        text-align: center;
+    }
+
+    .ui-toolbar {
+        background-color: #b9d1d0;
+        border: 1px solid #010101;
+        padding: 0.571em 1em;
+    }
+
+    .ui-inputgroup .ui-inputtext {
+        width: 791px;
+        padding-left: 0.5em;
+    }
+
+    .ui-table .ui-table-thead>tr>th {
+        border: 1px solid #e8d0d0;
+        color: #333333;
+        background-color: #b9d1d0 !important;
+        border: 1px solid #b9d1d0;
+    }
+
+    .ui-table .ui-table-tbody>tr>td {
+        border: 1px solid #3f8481;
+        transition: box-shadow 0.2s;
+        background-color: inherit;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .ui-paginator {
+        padding: 3px;
+        background-color: #b9d1d0 !important;
+        border: 1px solid #b9d1d0;
+        text-align: right;
+    }
+
+    .ui-dropdown .ui-dropdown-label {
+        color: #848484;
+        background-color: #b9d1d0 !important;
+    }
+
+    .ui-paginator .ui-dropdown .ui-dropdown-trigger {
+        color: #070707;
+        background-color: #b9d1d0 !important;
+    }
+
+    .ui-multiselect-panel .ui-multiselect-items .ui-multiselect-item.ui-state-highlight {
+        color: #0a0909;
+        background-color: #ffffff;
+    }
+}
